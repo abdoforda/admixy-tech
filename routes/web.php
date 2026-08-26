@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SiteController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -36,3 +37,5 @@ Route::get('/faq', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 })->name('contact');
+
+Route::post('/webhook/deploy', [SiteController::class, 'deploy']);
