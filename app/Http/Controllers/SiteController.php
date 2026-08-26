@@ -80,7 +80,11 @@ class SiteController extends Controller
             'first_name' => ['required', 'string', 'max:100'],
             'last_name' => ['nullable', 'string', 'max:100'],
             'company_name' => ['required', 'string', 'max:150'],
-            'country' => ['required', 'string', 'in:AE,SA,QA,KW,BH,OM,EG,JO,GB,US,EU,OTHER'],
+            'country' => [
+                'required',
+                'string',
+                'in:United Arab Emirates - الإمارات,Saudi Arabia - السعودية,Qatar - قطر,Kuwait - الكويت,Bahrain - البحرين,Oman - عُمان,Egypt - مصر,Jordan - الأردن,United Kingdom - المملكة المتحدة,United States - الولايات المتحدة,Europe - أوروبا,OTHER',
+            ],
             'website' => ['required', 'url', 'max:255'],
             'volume' => ['required', 'string', 'in:0-100k,100k-500k,500k-1m,1m-5m,5m+'],
             'email' => ['required', 'email', 'max:255'],
