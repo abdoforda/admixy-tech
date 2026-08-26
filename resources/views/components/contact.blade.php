@@ -44,17 +44,17 @@
                         <div class="form-clt">
                             <select name="country" id="country" required >
                                 <option value="" disabled selected>Operating Country/Region *</option>
-                                <option value="AE">United Arab Emirates (الإمارات)</option>
-                                <option value="SA">Saudi Arabia (السعودية)</option>
-                                <option value="QA">Qatar (قطر)</option>
-                                <option value="KW">Kuwait (الكويت)</option>
-                                <option value="BH">Bahrain (البحرين)</option>
-                                <option value="OM">Oman (عُمان)</option>
-                                <option value="EG">Egypt (مصر)</option>
-                                <option value="JO">Jordan (الأردن)</option>
-                                <option value="GB">United Kingdom</option>
-                                <option value="US">United States</option>
-                                <option value="EU">Europe</option>
+                                <option value="United Arab Emirates - الإمارات">United Arab Emirates (الإمارات)</option>
+                                <option value="Saudi Arabia - السعودية">Saudi Arabia (السعودية)</option>
+                                <option value="Qatar - قطر">Qatar (قطر)</option>
+                                <option value="Kuwait - الكويت">Kuwait (الكويت)</option>
+                                <option value="Bahrain - البحرين">Bahrain (البحرين)</option>
+                                <option value="Oman - عُمان">Oman (عُمان)</option>
+                                <option value="Egypt - مصر">Egypt (مصر)</option>
+                                <option value="Jordan - الأردن">Jordan (الأردن)</option>
+                                <option value="United Kingdom - المملكة المتحدة">United Kingdom (المملكة المتحدة)</option>
+                                <option value="United States - الولايات المتحدة">United States (الولايات المتحدة)</option>
+                                <option value="Europe - أوروبا">Europe (أوروبا)</option>
                                 <option value="OTHER">Other Country</option>
                             </select>
                             <div class="field-error" data-error-for="country"></div>
