@@ -51,6 +51,31 @@ class SiteController extends Controller
 
     public function contactUs(Request $request)
     {
+        $secretKey = '6LeRiJgtAAAAAKL4Y5OXR-EUVRoHb4l0LMocbgjU';
+        $captchaToken = $request->input('g-recaptcha-response');
+        $captchaVerification = null;
+
+        if ($captchaToken) {
+            $captchaVerification = \Illuminate\Support\Facades\Http::asForm()->post(
+                'https://www.google.com/recaptcha/api/siteverify',
+                [
+                    'secret' => $secretKey,
+                    'response' => $captchaToken,
+                    'remoteip' => $request->ip(),
+                ]
+            );
+        }
+
+        if (!$captchaToken || !$captchaVerification || !$captchaVerification->json('success')) {
+            return response()->json([
+                'success' => false,
+                'message' => 'Please complete the reCAPTCHA verification.',
+                'errors' => [
+                    'g-recaptcha-response' => ['Please complete the reCAPTCHA verification.'],
+                ],
+            ], 422);
+        }
+
         $validated = $request->validate([
             'first_name' => ['required', 'string', 'max:100'],
             'last_name' => ['nullable', 'string', 'max:100'],
