@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// aaaaaaaaaaaaaaaaaaaaaaaaaaa
 Route::get('/', function () {
     return view('welcome');
 })->name('home');
@@ -37,5 +38,3 @@ Route::get('/faq', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 })->name('contact');
-
-Route::post('/webhook/deploy', [SiteController::class, 'deploy']);
