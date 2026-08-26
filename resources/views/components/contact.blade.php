@@ -150,6 +150,7 @@
                     </div>
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="g-recaptcha" data-sitekey="6LeRiJgtAAAAAIkpCOie_1Ys2-vttQPvmpglRXIo"></div>
+                        <div class="field-error" data-error-for="g-recaptcha-response"></div>
                     </div>
 
                     <!-- Submit Button -->
