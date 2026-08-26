@@ -38,3 +38,5 @@ Route::get('/faq', function () {
 Route::get('/contact-us', function () {
     return view('contact');
 })->name('contact');
+
+Route::post('/contact-us', [SiteController::class, 'contactUs'])->name('contact.post');

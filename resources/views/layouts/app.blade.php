@@ -10,6 +10,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="author" content="preoit">
     <meta name="description" content="agency, business, consulting, corporate, digital marketing, marketing, seo, startup">
     <!-- ======== Page title ============ -->
@@ -381,7 +382,91 @@
      <!--<< script-gsap Js >>-->
      <script src="{{ asset('assets/js/script-gsap.js') }}"></script>
      <!--<< Main.js') }} >>-->
-     <script src="{{ asset('assets/js/main.js') }}"></script></body>
+     <script src="{{ asset('assets/js/main.js') }}"></script>
+     <style>
+         .field-error {
+             color: #dc3545;
+             display: block;
+             font-size: 13px;
+             margin-top: 7px;
+             text-align: left;
+         }
+
+         .form-status {
+             display: none;
+             margin-top: 15px;
+         }
+
+         .form-status.is-success,
+         .form-status.is-error {
+             display: block;
+         }
+
+         .form-status.is-success {
+             color: #198754;
+         }
+
+         .form-status.is-error {
+             color: #dc3545;
+         }
+
+         .is-invalid {
+             border-color: #dc3545 !important;
+         }
+     </style>
+     <script>
+         $(function () {
+             $('#contact-form').on('submit', function (event) {
+                 event.preventDefault();
+
+                 const form = $(this);
+                 const submitButton = form.find('button[type="submit"]');
+                 const status = $('#contact-form-status');
+
+                 form.find('.field-error').empty();
+                 form.find('.is-invalid').removeClass('is-invalid').removeAttr('aria-invalid');
+                 status.removeClass('is-success is-error').empty().hide();
+                 submitButton.prop('disabled', true);
+
+                 $.ajax({
+                     url: form.attr('action'),
+                     method: 'POST',
+                     data: form.serialize(),
+                     headers: {
+                         'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
+                         'Accept': 'application/json'
+                     }
+                 }).done(function (response) {
+                     status.addClass('is-success').text(response.message).show();
+                     form[0].reset();
+
+                     if (typeof grecaptcha !== 'undefined') {
+                         grecaptcha.reset();
+                     }
+                 }).fail(function (xhr) {
+                     if (xhr.status === 422 && xhr.responseJSON && xhr.responseJSON.errors) {
+                         $.each(xhr.responseJSON.errors, function (field, messages) {
+                             const fieldName = field.replace(/\.\d+$/, '');
+                             const error = form.find('[data-error-for="' + fieldName + '"]');
+                             const input = form.find('[name="' + fieldName + '"], [name="' + fieldName + '[]"]').first();
+
+                             error.text(messages[0]);
+                             input.addClass('is-invalid').attr('aria-invalid', 'true');
+                         });
+                     } else {
+                         const message = xhr.responseJSON && xhr.responseJSON.message
+                             ? xhr.responseJSON.message
+                             : 'Unable to send your message right now. Please try again later.';
+
+                         status.addClass('is-error').text(message).show();
+                     }
+                 }).always(function () {
+                     submitButton.prop('disabled', false);
+                 });
+             });
+         });
+     </script>
+</body>
 
 
 <!-- Mirrored from seoz-php.softboffin.com/index-3.php by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 24 Aug 2026 11:08:00 GMT -->

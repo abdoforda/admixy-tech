@@ -11,13 +11,15 @@
                 <h2 class="char-animation">Let Us Take Your Product <br> To The Next Level</h2>
             </div>
 
-            <form action="process.php" id="contact-form" class="contact-form-box">
+            <form action="{{ route('contact.post') }}" method="POST" id="contact-form" class="contact-form-box" novalidate>
+                @csrf
                 <div class="row g-4 align-items-center justify-content-center">
 
                     <!-- First Name -->
                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                         <div class="form-clt">
                             <input type="text" name="first_name" id="first_name" placeholder="First Name *" required>
+                            <div class="field-error" data-error-for="first_name"></div>
                         </div>
                     </div>
 
@@ -25,6 +27,7 @@
                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                         <div class="form-clt">
                             <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+                            <div class="field-error" data-error-for="last_name"></div>
                         </div>
                     </div>
 
@@ -32,6 +35,7 @@
                     <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".4s">
                         <div class="form-clt">
                             <input type="text" name="company_name" id="company_name" placeholder="Company Name *" required>
+                            <div class="field-error" data-error-for="company_name"></div>
                         </div>
                     </div>
 
@@ -53,6 +57,7 @@
                                 <option value="EU">Europe</option>
                                 <option value="OTHER">Other Country</option>
                             </select>
+                            <div class="field-error" data-error-for="country"></div>
                         </div>
                     </div>
 
@@ -60,6 +65,7 @@
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
                         <div class="form-clt">
                             <input type="url" name="website" id="website" placeholder="Website URL *" required>
+                            <div class="field-error" data-error-for="website"></div>
                         </div>
                     </div>
 
@@ -74,6 +80,7 @@
                                 <option value="1m-5m">$1,000,000 - $5,000,000</option>
                                 <option value="5m+">$5,000,000+</option>
                             </select>
+                            <div class="field-error" data-error-for="volume"></div>
                         </div>
                     </div>
 
@@ -81,6 +88,7 @@
                     <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay=".7s">
                         <div class="form-clt">
                             <input type="email" name="email" id="email" placeholder="Email Address *" required>
+                            <div class="field-error" data-error-for="email"></div>
                         </div>
                     </div>
 
@@ -129,6 +137,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <div class="field-error" data-error-for="interest"></div>
                         </div>
                     </div>
 
@@ -136,9 +145,10 @@
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="form-clt">
                             <textarea name="message" id="message" placeholder="Message"></textarea>
+                            <div class="field-error" data-error-for="message"></div>
                         </div>
                     </div>
-                    <div div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
+                    <div class="col-lg-12 wow fadeInUp" data-wow-delay=".8s">
                         <div class="g-recaptcha" data-sitekey="6LeRiJgtAAAAAIkpCOie_1Ys2-vttQPvmpglRXIo"></div>
                     </div>
 
@@ -146,9 +156,10 @@
                     <div class="col-lg-12 wow fadeInUp" data-wow-delay=".9s">
                         <div class="contact-button text-center">
                             <button type="submit" class="theme-btn">
-                                Submit
+                                <span class="submit-text">Submit</span>
                                 <i class="far fa-arrow-right"></i>
                             </button>
+                            <div id="contact-form-status" class="form-status" role="status" aria-live="polite"></div>
                         </div>
                     </div>
 
