@@ -37,6 +37,9 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
     <!--<< Main.css') }} >>-->
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <!--<< mobile.css') }} >>-->
+    <link rel="stylesheet" href="{{ asset('assets/css/mobile.css') }}">
+
 
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
@@ -180,7 +183,7 @@
 
                     </div>
 
-                    <a href="{{ route('contact') }}" class="theme-btn">
+                    <a href="{{ route('contact') }}" class="theme-btn hide-in-mobile">
                             Get Started
                             <i class="far fa-arrow-right"></i>
                         </a>
