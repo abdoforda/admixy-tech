@@ -1554,10 +1554,8 @@ p {
   width: 100%;
   z-index: 999;
   transition: all 0.9s;
-  background-color: var(--white);
   -webkit-animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-  box-shadow: var(---box-shadow);
 }
 .sticky.header-1 .header-logo {
   display: none;
