@@ -7,7 +7,33 @@
     .header-section-2 .header-1{
         margin-top: 12px;
     }
-    .sticky{
-        width: 90%;
+
+}
+
+@media (max-width: 767px) {
+    html,
+    body {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .container,
+    .container-fluid,
+    .row,
+    section,
+    main,
+    header,
+    footer {
+        max-width: 100% !important;
+        width: 100% !important;
+    }
+    .footer-section{
+        margin-top: 110px;
+    }
+    * {
+        box-sizing: border-box;
     }
 }

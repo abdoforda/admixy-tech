@@ -4,25 +4,11 @@
 
 <!-- Hero Section Start -->
     <section class="hero-section hero-3" style="background-image: url('assets/img/hero/hero-bg-3.png');">
-        <div class="left-shape float-bob-x">
-            <img src="{{ asset('assets/img/hero/left-shape-2.png') }}" alt="img">
-        </div>
-        <div class="right-shape float-bob-y">
-            <img src="{{ asset('assets/img/hero/right-shape.png') }}" alt="img">
-        </div>
-        <div class="plane-shape float-bob-x">
-            <img src="{{ asset('assets/img/hero/plane-3.png') }}" alt="img">
-        </div>
-        <div class="plane-shape-2 float-bob-y">
-            <img src="{{ asset('assets/img/hero/plane-shape-3.png') }}" alt="img">
-        </div>
-
         <div class="container">
     <div class="row justify-content-center">
         <div class="col-xl-9">
             <div class="hero-content">
                 <!-- Hero Eyebrow -->
-                <span class="wow fadeInUp">Welcome to Admixy Tech</span>
 
                 <!-- Hero Headline -->
                 <h1 class="char-animation">Powering Your Business <br> With Smarter Technology</h1>
@@ -31,21 +17,6 @@
                 <p class="wow fadeInUp" data-wow-delay=".2s">
                     From advanced MT4 and MT5 trading solutions to CRM, HR, and custom technology systems, Admixy Tech delivers reliable solutions designed to connect your operations, simplify complexity, and support your business growth.
                 </p>
-
-                <!-- Quick Contact / Lead Form -->
-                <form action="#" class="wow fadeInUp" data-wow-delay=".5s">
-                    <div class="input-item">
-                        <!-- Field 1 -->
-                        <input type="email" placeholder="Business Email" required>
-                        <!-- Field 2 -->
-                        <input type="text" placeholder="Tell Us About Your Project" required>
-                    </div>
-                    <!-- Button -->
-                    <button type="submit" class="theme-btn">
-                        Talk to Our Experts
-                        <i class="far fa-arrow-right"></i>
-                    </button>
-                </form>
 
                 <!-- Support Text -->
                 <p class="support-text wow fadeInUp" data-wow-delay=".6s" style="margin-top: 15px; font-size: 14px;">
