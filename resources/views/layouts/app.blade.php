@@ -18,7 +18,7 @@
         Admixy Tech - Powering Your Business With Smarter Technology
     </title>
     <!--<< Favicon >>-->
-    <link rel="shortcut icon" href="{{ asset('assets/img/favicon.svg') }}">
+    <link rel="shortcut icon" href="{{ asset('assets/img/logo/fave.png') }}">
     <!--<< Bootstrap min.css') }} >>-->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}">
     <!--<< Font Awesome.css') }} >>-->
