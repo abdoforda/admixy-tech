@@ -51,7 +51,7 @@
                             Admixy Tech provides specialized technology solutions designed to simplify operations, connect critical systems, and support business growth. From MT4 and MT5 trading solutions to CRM, HR, and custom technology systems, we build reliable solutions around your business needs.
                         </p>
                         <div class="about-btn wow fadeInUp" data-wow-delay=".4s">
-                            <a href="about.html" class="theme-btn">
+                            <a href="{{ route('about') }}" class="theme-btn">
                                 Discover Admixy Tech
                                 <i class="far fa-arrow-right"></i>
                             </a>
