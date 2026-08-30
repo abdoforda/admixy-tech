@@ -57,7 +57,7 @@
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
                         <a href="index-2.html">
-                            <img src="{{ asset('assets/img/logo/black-logo.svg') }}" alt="logo-img">
+                            <img src="{{ asset('assets/img/logo/logo.png') }}" alt="logo-img">
                         </a>
                     </div>
                     <div class="offcanvas__close">
@@ -66,8 +66,8 @@
                         </button>
                     </div>
                 </div>
-                <h3 class="offcanvas-title">Hello There!</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, </p>
+                <h3 class="offcanvas-title">Admixy Tech</h3>
+                <p>Powering Your Business With Smarter Technology</p>
                 <div class="mobile-menu fix mt-3"></div>
                 <div class="social-icon d-flex align-items-center">
                     <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -82,7 +82,7 @@
                             <span>
                                 Address:
                             </span>
-                            Graaf Floriss 22A CH NY
+                            Business Centre,Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates
                         </li>
                         <li>
                             <span>
@@ -127,10 +127,8 @@
                     </li>
                 </ul>
                 <div class="social-icon">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-dribbble"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/Admixy.eg"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/admixy.eg/"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </div>
@@ -232,10 +230,8 @@
                                 The time it will take for your website's search engine rankings to begin improving.
                             </p>
                             <div class="social-icon">
-                                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="https://www.facebook.com/Admixy.eg"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/admixy.eg/"><i class="fab fa-instagram"></i></a>
                             </div>
                         </div>
                     </div>
