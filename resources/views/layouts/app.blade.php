@@ -243,19 +243,19 @@
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="service-details.html">SEO for Small Business</a>
+                                <a href="{{ route('services') }}">SEO for Small Business</a>
                             </li>
                             <li>
-                                <a href="service-details.html">SEO for Local Services</a>
+                                <a href="{{ route('services') }}">SEO for Local Services</a>
                             </li>
                             <li>
-                                <a href="service-details.html">Enterprise SEO</a>
+                                <a href="{{ route('services') }}">Enterprise SEO</a>
                             </li>
                             <li>
-                                <a href="service-details.html">National SEO</a>
+                                <a href="{{ route('services') }}">National SEO</a>
                             </li>
                             <li>
-                                <a href="service-details.html">SEO Optimization</a>
+                                <a href="{{ route('services') }}">SEO Optimization</a>
                             </li>
                         </ul>
                     </div>
@@ -270,7 +270,7 @@
                                 <a href="{{ route('contact') }}">Help Center</a>
                             </li>
                             <li>
-                                <a href="service-details.html">Keyword Generator</a>
+                                <a href="{{ route('services') }}">Keyword Generator</a>
                             </li>
                             <li>
                                 <a href="news.html">News & Events</a>
@@ -314,8 +314,10 @@
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
                                 <div class="content">
-                                    <h5>New York, USA</h5>
-                                    <p class="text-white">27 Division 10002 Main road</p>
+                                    <h5>Sharjah, United Arab Emirates</h5>
+                                    <p class="text-white">
+                                        Business Centre, Sharjah Publishing City Free Zone, Sharjah, United Arab Emirates
+                                    </p>
                                 </div>
                             </li>
                         </ul>

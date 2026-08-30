@@ -365,7 +365,7 @@
                         <p class="text wow fadeInUp" data-wow-delay=".2s">
                             At Admixy Tech, we believe the right technology should make trading operations more efficient, reliable, and ready for growth. We deliver practical solutions built around performance, flexibility, and the evolving needs of modern trading businesses.
                         </p>
-                        <a href="contact.html" class="theme-btn wow fadeInUp" data-wow-delay=".4s">
+                        <a href="{{ route('contact') }}" class="theme-btn wow fadeInUp" data-wow-delay=".4s">
                             Get Started
                             <i class="far fa-arrow-right"></i>
                         </a>

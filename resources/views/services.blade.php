@@ -268,7 +268,7 @@
                             </div>
 
                             <div class="choose-us-card wow fadeInUp" data-wow-delay=".6s">
-                                <a href="contact.html" class="theme-btn">
+                                <a href="{{ route('contact') }}" class="theme-btn">
                                     Contact Us
                                     <i class="far fa-arrow-right"></i>
                                 </a>

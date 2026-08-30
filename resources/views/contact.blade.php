@@ -42,11 +42,11 @@
                     </p>
                 </div>
                 <div class="cta-button wow fadeInUp" data-wow-delay=".6s">
-                    <a href="contact.html" class="theme-btn">
+                    <a href="{{ route('contact') }}" class="theme-btn">
                         Request a Demo
                         <i class="far fa-arrow-right"></i>
                     </a>
-                    <a href="contact.html" class="pricing-text">Contact Us <i class="far fa-arrow-right"></i></a>
+                    <a href="{{ route('contact') }}" class="pricing-text">Contact Us <i class="far fa-arrow-right"></i></a>
                 </div>
                 <div class="carton-shape float-bob-x">
                     <img src="assets/img/cta/carton.png" alt="img">
