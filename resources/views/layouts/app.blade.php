@@ -56,7 +56,7 @@
             <div class="offcanvas__content">
                 <div class="offcanvas__top mb-5 d-flex justify-content-between align-items-center">
                     <div class="offcanvas__logo">
-                        <a href="index-2.html">
+                        <a href="/">
                             <img src="{{ asset('assets/img/logo/logo.png') }}" alt="logo-img">
                         </a>
                     </div>
@@ -138,7 +138,7 @@
             <div class="mega-menu-wrapper">
                 <div class="header-main">
                     <div class="header-left">
-                        <a href="index-2.html" class="header-logo1">
+                        <a href="/" class="header-logo1">
                             <img src="{{ asset('assets/img/logo/logo.png') }}" style="width: 200px;" alt="logo-img">
                         </a>
 
@@ -221,7 +221,7 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <a href="index-2.html">
+                            <a href="/">
                                 <img src="{{ asset('assets/img/logo/logo.png') }}" style="width: 200px; filter: brightness(0) invert(1);" alt="img">
                             </a>
                         </div>
