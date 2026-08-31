@@ -17,6 +17,76 @@
     <title>
         Admixy Tech - Powering Your Business With Smarter Technology
     </title>
+
+    <!-- ======== SEO ============ -->
+<title>Admixy Tech - Powering Your Business With Smarter Technology</title>
+
+<meta name="description"
+      content="Admixy Tech provides smarter technology solutions, digital services, software development, and innovative solutions that help businesses grow.">
+
+<meta name="keywords"
+      content="Admixy Tech, technology, software development, digital solutions, web development, mobile apps, Laravel, Flutter, digital marketing, SEO, business solutions">
+
+<meta name="author" content="Admixy Tech">
+
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://admixy.tech/">
+
+
+<!-- ======== Open Graph / WhatsApp / Facebook / LinkedIn ============ -->
+
+<meta property="og:type" content="website">
+
+<meta property="og:url" content="https://admixy.tech/">
+
+<meta property="og:title"
+      content="Admixy Tech - Powering Your Business With Smarter Technology">
+
+<meta property="og:description"
+      content="Smarter technology solutions that help businesses grow, innovate, and succeed.">
+
+<meta property="og:image"
+      content="{{ asset('assets/img/logo/og-image.jpg') }}">
+
+<meta property="og:image:secure_url"
+      content="{{ asset('assets/img/logo/og-image.jpg') }}">
+
+<meta property="og:image:type"
+      content="image/jpeg">
+
+<meta property="og:image:width"
+      content="1200">
+
+<meta property="og:image:height"
+      content="630">
+
+<meta property="og:image:alt"
+      content="Admixy Tech - Powering Your Business With Smarter Technology">
+
+<meta property="og:site_name" content="Admixy Tech">
+
+<meta property="og:locale" content="en_US">
+
+
+<!-- ======== Twitter / X ============ -->
+
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:url" content="https://admixy.tech/">
+
+<meta name="twitter:title"
+      content="Admixy Tech - Powering Your Business With Smarter Technology">
+
+<meta name="twitter:description"
+      content="Smarter technology solutions that help businesses grow, innovate, and succeed.">
+
+<meta name="twitter:image"
+      content="{{ asset('assets/img/logo/og-image.jpg') }}">
+
+<meta name="twitter:image:alt"
+      content="Admixy Tech - Powering Your Business With Smarter Technology">
+
     <!--<< Favicon >>-->
     <link rel="shortcut icon" href="{{ asset('assets/img/logo/fave.png') }}">
     <!--<< Bootstrap min.css') }} >>-->
