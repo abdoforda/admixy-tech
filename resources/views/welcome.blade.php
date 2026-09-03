@@ -122,7 +122,7 @@
                                         <img src="{{ asset('assets/img/service/taiga-icon.png') }}" alt="Taiga Icon" style="width: 45px;">
                                     </div>
                                     <div class="content">
-                                        <h3><a href="/#contactUs">taiga</a></h3>
+                                        <h3><a href="/#contactUs">Taiga</a></h3>
                                         <p>Taiga gives brokers real-time control over risk, exposure, and execution turning live trading data into actionable insights.</p>
                                     </div>
                                     <a href="/#contactUs" class="link-btn">More Details
