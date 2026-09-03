@@ -1,5 +1,5 @@
 <!-- Contact Section Start -->
-<section class="contact-section-6">
+<section class="contact-section-6" id="contactUs">
     <div class="container">
         <div class="contact-wrapper-6">
             <div class="plane-shape float-bob-y">

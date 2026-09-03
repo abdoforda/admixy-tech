@@ -1528,7 +1528,7 @@ p {
   color: var(--theme-color);
 }
 .header-section-2 .header-top-wrapper.style-2 .top-list li {
-  color: var(--white);
+  color: var(--black);
 }
 .header-section-2 .header-top-wrapper.style-2 .top-list li b {
   color: var(--theme-color-2);
@@ -1538,10 +1538,10 @@ p {
   margin-right: 5px;
 }
 .header-section-2 .header-top-wrapper.style-2 .top-list li a {
-  color: var(--white);
+  color: var(--black);
 }
 .header-section-2 .header-top-wrapper.style-2 .social-icon a {
-  color: var(--white);
+  color: var(--black);
 }
 .header-section-2 .header-top-wrapper.style-2 .social-icon a:hover {
   color: var(--theme-color-2);
@@ -2353,7 +2353,7 @@ p {
   margin-left: 160px;
 }
 .hero-3 .hero-content h1 {
-  color: var(--white);
+  color: var(--theme-color);
   font-size: 72px;
   font-weight: 600;
   text-align: center;
@@ -2370,7 +2370,7 @@ p {
 }
 .hero-3 .hero-content p {
   font-size: 18px;
-  color: var(--white);
+  color: var(--black);
   margin-top: 30px;
   margin: 30px auto 0;
   text-align: center;
@@ -2395,7 +2395,7 @@ p {
   border: none;
   background: transparent;
   outline: none;
-  color: var(--text);
+  color: var(--theme-color);
 }
 @media (max-width: 767px) {
   .hero-3 .hero-content form .input-item input {

@@ -24,10 +24,10 @@ Route::get('/about-us', function () {
     return view('about');
 })->name('about');
 
-// services
-Route::get('/services', function () {
-    return view('services');
-})->name('services');
+// products
+Route::get('/products', function () {
+    return view('products');
+})->name('products');
 
 // faq
 Route::get('/faq', function () {

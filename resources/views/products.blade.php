@@ -16,9 +16,9 @@
                         <i class="fal fa-long-arrow-right"></i>
                     </li>
                     <li>
-                        Our Services                    </li>
+                        Products                    </li>
                 </ul>
-                <h2 class="wow fadeInUp" data-wow-delay=".3s">Our Services</h2>
+                <h2 class="wow fadeInUp" data-wow-delay=".3s">Products</h2>
             </div>
         </div>
     </div>
@@ -26,10 +26,10 @@
     <section class="service-section-2 section-padding fix">
         <div class="container">
             <div class="section-title text-center">
-                <span class="wow fadeInUp">Our Services</span>
+                <span class="wow fadeInUp">Products</span>
                 <h2 class="char-animation">Technology Solutions Built for<br> Modern Trading Businesses</h2>
                 <p class="wow fadeInUp" data-wow-delay=".3s" style="max-width: 750px; margin: 15px auto 0;">
-                    At Admixy Tech, we deliver technology solutions designed to support the evolving needs of brokers, trading businesses, and financial platforms. From trading platforms to infrastructure and analytics, our services are built for performance, reliability, and scalability.
+                    At Admixy Tech, we deliver technology solutions designed to support the evolving needs of brokers, trading businesses, and financial platforms. From trading platforms to infrastructure and analytics, Products are built for performance, reliability, and scalability.
                 </p>
             </div>
             <div class="row g-5">

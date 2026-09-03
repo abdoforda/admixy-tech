@@ -103,7 +103,7 @@
                 <!-- Left Title Column -->
                 <div class="col-lg-6">
                     <div class="section-title sticky-style">
-                        <span class="wow fadeInUp">Our Services</span>
+                        <span class="wow fadeInUp">Products</span>
                         <h2 class="char-animation">Our Technology Can <br> Power Your Trading <br> Business</h2>
                         <p class="wow fadeInUp" data-wow-delay=".2s" style="margin-top: 15px;">
                             At Admixy Tech, we provide advanced technology solutions designed to support modern trading businesses, brokers, and financial platforms with reliable, scalable, and efficient trading infrastructure.
@@ -119,13 +119,13 @@
                             <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-delay=".2s">
                                 <div class="service-right-box">
                                     <div class="icon">
-                                        <i class="flaticon-email-marketing"></i>
+                                        <img src="{{ asset('assets/img/service/taiga-icon.png') }}" alt="Taiga Icon" style="width: 45px;">
                                     </div>
                                     <div class="content">
-                                        <h3><a href="service-details.html">MT4 Solutions</a></h3>
-                                        <p>Empower your trading business with reliable MetaTrader 4 solutions designed for seamless operations, advanced trading capabilities, and a professional user experience.</p>
+                                        <h3><a href="/#contactUs">taiga</a></h3>
+                                        <p>Taiga gives brokers real-time control over risk, exposure, and execution turning live trading data into actionable insights.</p>
                                     </div>
-                                    <a href="service-details.html" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">More Details
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -138,10 +138,10 @@
                                         <i class="flaticon-seo"></i>
                                     </div>
                                     <div class="content">
-                                        <h3><a href="service-details.html">MT5 Solutions</a></h3>
+                                        <h3><a href="/#contactUs">MT5 Solutions</a></h3>
                                         <p>Take your trading infrastructure to the next level with MetaTrader 5 solutions built to support multi-asset trading, advanced functionality, and scalable performance.</p>
                                     </div>
-                                    <a href="service-details.html" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">More Details
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -154,10 +154,10 @@
                                         <i class="flaticon-email-marketing-1"></i>
                                     </div>
                                     <div class="content">
-                                        <h3><a href="service-details.html">Trading Platform Solutions</a></h3>
+                                        <h3><a href="/#contactUs">Trading Platform Solutions</a></h3>
                                         <p>Build a complete and efficient trading environment with technology solutions tailored to your business needs, from platform integration to essential trading infrastructure.</p>
                                     </div>
-                                    <a href="service-details.html" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">More Details
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -170,10 +170,10 @@
                                         <i class="flaticon-performance"></i>
                                     </div>
                                     <div class="content">
-                                        <h3><a href="service-details.html">FinTech Technology Solutions</a></h3>
+                                        <h3><a href="/#contactUs">FinTech Technology Solutions</a></h3>
                                         <p>Leverage modern financial technology to create smarter, more connected trading experiences.</p>
                                     </div>
-                                    <a href="service-details.html" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">More Details
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>

@@ -228,8 +228,8 @@
             </a>
         </li>
         <li>
-            <a href="{{ route('services') }}">
-                Services
+            <a href="{{ route('products') }}">
+                Products
             </a>
         </li>
         <li>
@@ -309,23 +309,23 @@
                 <div class="col-xl-3 col-lg-4 col-md-6 ps-lg-5 wow fadeInUp" data-wow-delay=".4s">
                     <div class="single-footer-widget">
                         <div class="widget-head">
-                            <h3>Our Services</h3>
+                            <h3>Products</h3>
                         </div>
                         <ul class="list-area">
                             <li>
-                                <a href="{{ route('services') }}">SEO for Small Business</a>
+                                <a href="{{ route('products') }}">Trading Infrastructure</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') }}">SEO for Local Services</a>
+                                <a href="{{ route('products') }}">Trading Platform Integration</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') }}">Enterprise SEO</a>
+                                <a href="{{ route('products') }}">MT5 Solutions</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') }}">National SEO</a>
+                                <a href="{{ route('products') }}">Taiga Solutions</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') }}">SEO Optimization</a>
+                                <a href="{{ route('products') }}">Financial Technology Solutions</a>
                             </li>
                         </ul>
                     </div>
@@ -340,7 +340,7 @@
                                 <a href="{{ route('contact') }}">Help Center</a>
                             </li>
                             <li>
-                                <a href="{{ route('services') }}">Keyword Generator</a>
+                                <a href="{{ route('products') }}">Keyword Generator</a>
                             </li>
                             <li>
                                 <a href="news.html">News & Events</a>
