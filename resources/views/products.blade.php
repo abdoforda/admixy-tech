@@ -47,7 +47,7 @@
                             <p>
                                 Leverage MetaTrader 4 with reliable technology solutions designed to support efficient trading operations and a seamless platform experience.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -68,7 +68,7 @@
                             <p>
                                 Access the advanced capabilities of MetaTrader 5 with flexible solutions built to support multi-asset trading and modern business requirements.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -89,7 +89,7 @@
                             <p>
                                 Connect your trading environment with the technology and integrations required to create a smooth, efficient, and connected trading experience.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -110,7 +110,7 @@
                             <p>
                                 Build a stronger technical foundation with reliable infrastructure designed to support stable performance, operational efficiency, and business continuity.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -131,7 +131,7 @@
                             <p>
                                 Implement modern FinTech solutions tailored to your business model, helping you streamline operations and create more efficient digital trading experiences.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -152,7 +152,7 @@
                             <p>
                                 Turn trading and operational data into valuable insights with technology solutions that support better visibility, analysis, and informed business decisions.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -173,7 +173,7 @@
                             <p>
                                 Get technology solutions tailored to your specific requirements, from platform functionality to integrations and specialized trading infrastructure.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>
@@ -194,7 +194,7 @@
                             <p>
                                 Keep your trading technology performing at its best with ongoing technical support, optimization, and solutions designed to adapt as your business grows.
                             </p>
-                            <a href="service-details.html" class="link-btn">More Details
+                            <a href="service-details.html" class="link-btn">Get Started
                                 <i class="far fa-arrow-right"></i>
                             </a>
                         </div>

@@ -102,7 +102,7 @@
             <div class="row g-4">
                 <!-- Left Title Column -->
                 <div class="col-lg-6">
-                    <div class="section-title sticky-style">
+                    <div class="section-title">
                         <span class="wow fadeInUp">Products</span>
                         <h2 class="char-animation">Our Technology Can <br> Power Your Trading <br> Business</h2>
                         <p class="wow fadeInUp" data-wow-delay=".2s" style="margin-top: 15px;">
@@ -123,9 +123,9 @@
                                     </div>
                                     <div class="content">
                                         <h3><a href="/#contactUs">Taiga</a></h3>
-                                        <p>Taiga gives brokers real-time control over risk, exposure, and execution turning live trading data into actionable insights.</p>
+                                        <p>Taiga gives brokers real-time control over risk, exposure and execution. From B-Book optimization to dynamic hedging and predictive signals, it turns live flow into actionable intelligence.</p>
                                     </div>
-                                    <a href="/#contactUs" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">Get Started
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -141,7 +141,7 @@
                                         <h3><a href="/#contactUs">MT5 Solutions</a></h3>
                                         <p>Take your trading infrastructure to the next level with MetaTrader 5 solutions built to support multi-asset trading, advanced functionality, and scalable performance.</p>
                                     </div>
-                                    <a href="/#contactUs" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">Get Started
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -157,7 +157,7 @@
                                         <h3><a href="/#contactUs">Trading Platform Solutions</a></h3>
                                         <p>Build a complete and efficient trading environment with technology solutions tailored to your business needs, from platform integration to essential trading infrastructure.</p>
                                     </div>
-                                    <a href="/#contactUs" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">Get Started
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
@@ -173,7 +173,7 @@
                                         <h3><a href="/#contactUs">FinTech Technology Solutions</a></h3>
                                         <p>Leverage modern financial technology to create smarter, more connected trading experiences.</p>
                                     </div>
-                                    <a href="/#contactUs" class="link-btn">More Details
+                                    <a href="/#contactUs" class="link-btn">Get Started
                                         <i class="far fa-arrow-right"></i>
                                     </a>
                                 </div>
